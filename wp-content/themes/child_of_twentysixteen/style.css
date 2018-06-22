@@ -47,3 +47,24 @@ Version: 1.0
 .main-navigation a:hover, .main-navigation a:focus {
     color: #00cc00;
 }
+
+@media screen and (min-width: 56.875em) {
+	.widget .widget-title {
+		font-size: 1rem;
+	}
+}
+
+.sticky-title {
+	background-color: chartreuse;
+}
+
+.sticky-post
+::before { 
+	background-color: chartreuse;
+	content: "Featured Content";
+	display: block;
+	text-align: center;
+	font-family: 'BioRhyme Expanded', serif;
+	font-size: 80%;
+	padding: 1em;
+}
